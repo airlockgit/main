@@ -1,0 +1,18 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04.08.2016, 13:18:57
+    Author     : Max
+*/
+@mixin button($color, $font-size, $border-color, $border-radius, $background) {
+    color: $color;
+    font: $font-size+px 'Arial', sans-serif;
+    font-weight: 400;
+    border: 1px solid $border-color;
+    border-radius: $border-radius+px;
+    background: $background;
+    padding: 10px 25px;
+}

@@ -1,0 +1,148 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08.08.2016, 13:53:34
+    Author     : Max
+*/
+
+@import '_colors';
+
+.container{
+    background: grey;
+    background-size:cover;
+    width: 100%;
+    height: 630px;
+    padding-top: 30px;
+    &__intro {
+        width: 100%;
+    }
+    &__aboutme {
+        width: 100%;
+        font-family: "Raleway", sans-serif;
+        color: #ffffff;
+    }
+}
+.intro {
+    background: #ffffff;
+    height: 70px;
+    min-width: 669px;
+    width: 1000px;
+    margin: auto;
+}
+.aboutme {
+    height: 500px;
+    min-width: 669px;
+    width: 1000px;
+    margin: auto;
+    &__title {
+        margin-bottom: 17px;
+        padding-top: 50px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    &__par {
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 57%;
+        padding-bottom: 40px;
+    }
+}
+.logo {
+    float: left;
+    background: #eeeff4;
+    height: 70px;
+}
+.title {
+    display: inline-block;
+    font-size: 30px;
+    color: $main-txt-clr;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: normal; 
+    line-height: 70px;
+    padding: 0px 20px;
+    &__middle-text {
+        @extend .title;
+        font-family: 'Arial', sans-serif;
+        font-size: 18px; 
+        color: #526c86;
+        font-weight: 300; 
+    }
+    &_section {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+.navbar {
+    float: right;
+    text-transform: uppercase;
+    height: 70px;
+    border: 0px solid transparent;
+    &__link {
+        color: #2c3e50;
+        font-family: 'Arial', sans-serif;
+        font-size: 14px; 
+        font-weight: 600;
+        padding: 0px 20px;
+        display: inline-block;
+        line-height: 80px;
+        height: 70px;
+        &_itm {
+            background: #f37019;
+            color: #ffffff !important;
+        }
+    }
+    &__link:hover {
+        color: #f37019;
+    }
+}
+/* For medium-sized devices ( tablets ) */
+@media (max-width: 700px) {
+    .container {
+        background: grey;
+        height: 700px;
+    }
+}
+.contacts {
+    &__help {
+        font-size: 20px;
+        padding: 10px 30px 10px 30px;
+    }
+    &__tel:before {
+        content: "Tel: ";
+        color: black;
+    }
+    &__skype:before {
+        content: "Skype: ";
+        color: black;
+    }
+    &__mail:before {
+        content: "Mail: ";
+        color: black;
+    }
+}
+
+.aboutme__contacts {
+    float: left;
+    width: 30%;
+   
+    a {
+        color: #ffffff;
+        display: inline-block;
+        padding: 2px 20px 0px 10px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+.aboutme__help {
+    width: 27%;
+    float: left;
+}
+.test {
+     height: 70px;
+}
+
