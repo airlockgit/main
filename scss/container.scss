@@ -37,6 +37,8 @@ and open the template in the editor.
     min-width: 669px;
     width: 1000px;
     margin: auto;
+}
+.section {
     &__title {
         margin-bottom: 17px;
         padding-top: 50px;
@@ -141,8 +143,5 @@ and open the template in the editor.
 .aboutme__help {
     width: 27%;
     float: left;
-}
-.test {
-     height: 70px;
 }
 

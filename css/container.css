@@ -41,16 +41,17 @@ and open the template in the editor.
   min-width: 669px;
   width: 1000px;
   margin: auto; }
-  .aboutme__title {
-    margin-bottom: 17px;
-    padding-top: 50px;
-    font-size: 35px;
-    line-height: 40px; }
-  .aboutme__par {
-    font-size: 18px;
-    line-height: 32px;
-    max-width: 57%;
-    padding-bottom: 40px; }
+
+.section__title {
+  margin-bottom: 17px;
+  padding-top: 50px;
+  font-size: 35px;
+  line-height: 40px; }
+.section__par {
+  font-size: 18px;
+  line-height: 32px;
+  max-width: 57%;
+  padding-bottom: 40px; }
 
 .logo {
   float: left;
@@ -125,8 +126,5 @@ and open the template in the editor.
 .aboutme__help {
   width: 27%;
   float: left; }
-
-.test {
-  height: 70px; }
 
 /*# sourceMappingURL=container.css.map */
