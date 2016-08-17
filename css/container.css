@@ -121,8 +121,7 @@ and open the template in the editor.
     display: inline-block;
     padding: 2px 20px 0px 10px; }
   .aboutme__contacts a:hover {
-    text-decoration: underline; }
-
+    color: #f9995a; }
 .aboutme__help {
   width: 27%;
   float: left; }
