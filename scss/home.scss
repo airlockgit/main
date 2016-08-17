@@ -27,19 +27,17 @@ and open the template in the editor.
 }
 .article {
     width: 100%;
-    background: #eeeff4;
-    float: left;
+    padding: 20px;
     &__title {
         text-align: center;
         hr {
-            height: 4px;
-            width: 90px;
+            height: 2px;
+            width: 200px;
             text-align: center;
             position: relative;
-            background: #E87E04;
+            background: #fa5504;
             margin: 0 auto;
             margin-bottom: 30px;
-            border: 0;
         }
     }
     &__skills {
@@ -47,7 +45,31 @@ and open the template in the editor.
         width: 700px;
         text-align: center;
     }
+    &__job {
+        margin: auto;
+        width: 550px;
+    }
+    &__get-job {
+        margin: auto;
+        width: 550px;
+        text-align: center;
+        padding: 30px;
+    }
 }
+.get-job {
+    &__img {
+        padding: 30px;
+    }
+    &__btn-warning {
+        background: #f37019;
+    }
+    &__btn-warning:hover {
+        background: #db5c07;
+    }
+}
+#job {
+    background: #eeeff4;
+    }
 .img {
     height: 190px;
     width: 190px;
@@ -55,6 +77,42 @@ and open the template in the editor.
 }
 .skill{
     &__title {
-        color: grey;
+        color: #3f3f3e;
+    }
+}
+.job {
+    &__title {
+        display: inline-block;
+        color: #393939;
+        font: 23px 'Arial', sans-serif; 
+        &_get-job {
+        color: black;
+        font: 23px 'Arial', sans-serif; 
+        margin-bottom: 30px;
+        }
+    }
+}
+footer {
+    width: 100%;
+    text-align: center;
+}
+.footer {
+    &__contacts {
+        width: 100%;
+        background: #3c3c3c;
+        font: 23px 'Arial', sans-serif;
+        a {
+            color: #ffffff;
+            line-height:150px;
+            padding: 20px;
+        }
+        a:hover {
+            color: #f9995a;
+        }
+    }
+    &__charter {
+        padding: 20px;
+        margin: auto;
+        font: 18px 'Arial', sans-serif;
     }
 }

@@ -127,21 +127,23 @@ and open the template in the editor.
     }
 }
 
-.aboutme__contacts {
-    float: left;
-    width: 30%;
-   
-    a {
-        color: #ffffff;
-        display: inline-block;
-        padding: 2px 20px 0px 10px;
+.aboutme {
+    &__contacts {
+        float: left;
+        width: 30%;
+
+        a {
+            color: #ffffff;
+            display: inline-block;
+            padding: 2px 20px 0px 10px;
+        }
+        a:hover {
+            color: #f9995a;
+        }
     }
-    a:hover {
-        text-decoration: underline;
+    &__help {
+        width: 27%;
+        float: left;
     }
-}
-.aboutme__help {
-    width: 27%;
-    float: left;
 }
 
