@@ -42,7 +42,6 @@ and open the template in the editor.
 .article {
   width: 100%;
   background: #eeeff4;
-  height: 600px;
   float: left; }
   .article__title {
     text-align: center; }
@@ -55,10 +54,17 @@ and open the template in the editor.
       margin: 0 auto;
       margin-bottom: 30px;
       border: 0; }
+  .article__skills {
+    margin: auto;
+    width: 700px;
+    text-align: center; }
 
 .img {
   height: 190px;
   width: 190px;
   border-radius: 50%; }
+
+.skill__title {
+  color: grey; }
 
 /*# sourceMappingURL=home.css.map */
