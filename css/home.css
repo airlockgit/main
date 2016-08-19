@@ -68,9 +68,7 @@ and open the template in the editor.
 .get-job__img {
   padding: 30px; }
 .get-job__btn-warning {
-  background: #f37019; }
-.get-job__btn-warning:hover {
-  background: #db5c07; }
+  margin-left: 40px; }
 
 #job {
   background: #eeeff4; }

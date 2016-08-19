@@ -12,3 +12,10 @@ a {
 a:hover {
     text-decoration: none;
 }
+.btn:hover {
+    outline: none;
+}
+.btn:focus {
+    outline: none;
+}
+
