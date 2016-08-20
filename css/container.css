@@ -20,7 +20,6 @@ and open the template in the editor.
   background: grey;
   background-size: cover;
   width: 100%;
-  height: 630px;
   padding-top: 30px; }
   .container__intro {
     width: 100%; }
@@ -32,15 +31,18 @@ and open the template in the editor.
 .intro {
   background: #ffffff;
   height: 70px;
-  min-width: 669px;
   width: 1000px;
   margin: auto; }
 
 .aboutme {
   height: 500px;
-  min-width: 669px;
   width: 1000px;
   margin: auto; }
+  .aboutme__section_l {
+    float: left;
+    width: 65%; }
+  .aboutme__section_r {
+    float: left; }
 
 .section__title {
   margin-bottom: 17px;
@@ -48,10 +50,26 @@ and open the template in the editor.
   font-size: 35px;
   line-height: 40px; }
 .section__par {
-  font-size: 18px;
+  font-size: 19px;
   line-height: 32px;
-  max-width: 57%;
+  max-width: 80%;
   padding-bottom: 40px; }
+.section__contacts {
+  float: left;
+  width: 50%;
+  font-size: 15px; }
+  .section__contacts a {
+    color: #ffffff;
+    display: inline-block;
+    padding: 2px 20px 0px 10px; }
+  .section__contacts a:hover {
+    color: #c9302c; }
+.section__help {
+  width: 50%;
+  float: left; }
+.section__img {
+  border-radius: 200px;
+  margin-top: 60px; }
 
 .logo {
   float: left;
@@ -107,13 +125,35 @@ and open the template in the editor.
       text-decoration: none;
       outline: none; }
   .navbar__link:hover {
-    color: #f37019; }
+    color: #c9302c; }
 
-/* For medium-sized devices ( tablets ) */
-@media (max-width: 700px) {
-  .container {
-    background: grey;
-    height: 700px; } }
+/* For medium-sized devices ( smart ) */
+@media (max-width: 1100px) {
+  .intro {
+    width: 850px; }
+
+  .aboutme {
+    width: 850px;
+    min-height: 700px; }
+
+  .navbar__link {
+    padding: 0px 10px; }
+
+  .section__contacts {
+    font-size: 18px; } }
+@media (max-width: 750px) {
+  .intro {
+    width: 850px; }
+
+  .aboutme {
+    width: 850px;
+    min-height: 700px; }
+
+  .navbar__link {
+    padding: 0px 10px; }
+
+  .section__contacts {
+    font-size: 18px; } }
 .contacts__help {
   font-size: 20px;
   padding: 10px 30px 10px 30px; }
@@ -126,18 +166,5 @@ and open the template in the editor.
 .contacts__mail:before {
   content: "Email: ";
   color: black; }
-
-.aboutme__contacts {
-  float: left;
-  width: 35%; }
-  .aboutme__contacts a {
-    color: #ffffff;
-    display: inline-block;
-    padding: 2px 20px 0px 10px; }
-  .aboutme__contacts a:hover {
-    color: #f9995a; }
-.aboutme__help {
-  width: 27%;
-  float: left; }
 
 /*# sourceMappingURL=container.css.map */

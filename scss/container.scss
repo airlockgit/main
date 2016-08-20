@@ -14,7 +14,6 @@ and open the template in the editor.
     background: grey;
     background-size:cover;
     width: 100%;
-    height: 630px;
     padding-top: 30px;
     &__intro {
         width: 100%;
@@ -28,15 +27,22 @@ and open the template in the editor.
 .intro {
     background: #ffffff;
     height: 70px;
-    min-width: 669px;
     width: 1000px;
     margin: auto;
 }
 .aboutme {
     height: 500px;
-    min-width: 669px;
     width: 1000px;
     margin: auto;
+    &__section {
+        &_l {
+            float: left;
+            width: 65%; 
+        }
+        &_r {
+            float: left;
+        }
+    }
 }
 .section {
     &__title {
@@ -46,10 +52,31 @@ and open the template in the editor.
         line-height: 40px;
     }
     &__par {
-        font-size: 18px;
+        font-size: 19px;
         line-height: 32px;
-        max-width: 57%;
+        max-width: 80%;
         padding-bottom: 40px;
+    }
+    &__contacts {
+        float: left;
+        width: 50%;
+        font-size: 15px;
+        a {
+            color: #ffffff;
+            display: inline-block;
+            padding: 2px 20px 0px 10px;
+        }
+        a:hover {
+            color: #c9302c;
+        }
+    }
+    &__help {
+        width: 50%;
+        float: left;
+    }
+    &__img {
+        border-radius: 200px;
+        margin-top: 60px;
     }
 }
 .logo {
@@ -115,15 +142,47 @@ and open the template in the editor.
         }
     }
     &__link:hover {
-        color: #f37019;
+        color: #c9302c;
     }
 }
-/* For medium-sized devices ( tablets ) */
-@media (max-width: 700px) {
-    .container {
-        background: grey;
-        height: 700px;
+/* For medium-sized devices ( smart ) */
+@media (max-width: 1100px) {
+    .intro {
+        width: 850px;
     }
+    .aboutme {
+        width: 850px;
+        min-height: 700px;
+    }
+    .navbar {
+        &__link {
+            padding: 0px 10px;  
+        }
+    }
+    .section {
+        &__contacts {
+            font-size: 18px;
+        }
+    }
+}
+@media (max-width: 750px) {
+    .intro {
+        width: 850px;
+    }
+    .aboutme {
+        width: 850px;
+        min-height: 700px;
+    }
+    .navbar {
+        &__link {
+            padding: 0px 10px;  
+        }
+    }
+    .section {
+        &__contacts {
+            font-size: 18px;
+        }
+    }    
 }
 .contacts {
     &__help {
@@ -141,26 +200,6 @@ and open the template in the editor.
     &__mail:before {
         content: "Email: ";
         color: black;
-    }
-}
-
-.aboutme {
-    &__contacts {
-        float: left;
-        width: 35%;
-
-        a {
-            color: #ffffff;
-            display: inline-block;
-            padding: 2px 20px 0px 10px;
-        }
-        a:hover {
-            color: #f9995a;
-        }
-    }
-    &__help {
-        width: 27%;
-        float: left;
     }
 }
 
