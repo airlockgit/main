@@ -131,7 +131,7 @@ and open the template in the editor.
         padding: 10px 30px 10px 30px;
     }
     &__tel:before {
-        content: "Tel: ";
+        content: "Telephone: ";
         color: black;
     }
     &__skype:before {
@@ -139,7 +139,7 @@ and open the template in the editor.
         color: black;
     }
     &__mail:before {
-        content: "Mail: ";
+        content: "Email: ";
         color: black;
     }
 }
@@ -147,7 +147,7 @@ and open the template in the editor.
 .aboutme {
     &__contacts {
         float: left;
-        width: 30%;
+        width: 35%;
 
         a {
             color: #ffffff;

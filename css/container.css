@@ -118,18 +118,18 @@ and open the template in the editor.
   font-size: 20px;
   padding: 10px 30px 10px 30px; }
 .contacts__tel:before {
-  content: "Tel: ";
+  content: "Telephone: ";
   color: black; }
 .contacts__skype:before {
   content: "Skype: ";
   color: black; }
 .contacts__mail:before {
-  content: "Mail: ";
+  content: "Email: ";
   color: black; }
 
 .aboutme__contacts {
   float: left;
-  width: 30%; }
+  width: 35%; }
   .aboutme__contacts a {
     color: #ffffff;
     display: inline-block;
