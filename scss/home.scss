@@ -61,10 +61,7 @@ and open the template in the editor.
         padding: 30px;
     }
     &__btn-warning {
-        background: #f37019;
-    }
-    &__btn-warning:hover {
-        background: #db5c07;
+        margin-left: 40px;
     }
 }
 #job {
@@ -115,4 +112,40 @@ footer {
         margin: auto;
         font: 18px 'Arial', sans-serif;
     }
+}
+//modal
+.modal-content {
+    width: 700px;
+}
+.close {
+    opacity: 0.5;
+}
+.close:hover {
+    opacity: 1;
+}
+.modal-header {
+    text-align: center;
+    padding: 30px;
+}
+.modal-title {
+    font-size: 26px;
+}
+.col-sm-10 {
+    width: 350px;
+}
+.modal-body {
+    text-align: center;
+}
+.form-group {
+    display: inline-block;
+}
+.control-label {
+    width: 200px;
+    color:grey;
+    font-weight: 300;
+    font-size: 18px;
+}
+.form-control {
+    font-size: 19px;
+    padding: 20px 10px; 
 }

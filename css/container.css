@@ -90,8 +90,22 @@ and open the template in the editor.
     line-height: 80px;
     height: 70px; }
     .navbar__link_itm {
-      background: #f37019;
-      color: #ffffff !important; }
+      background: #d9534f;
+      color: #ffffff !important;
+      text-decoration: none;
+      border: 1px solid #d9534f; }
+    .navbar__link_itm:active {
+      text-decoration: none;
+      outline: none;
+      border: 1px solid white; }
+    .navbar__link_itm:focus {
+      text-decoration: none;
+      outline: none; }
+    .navbar__link_itm:hover {
+      background: #c9302c;
+      color: #ffffff !important;
+      text-decoration: none;
+      outline: none; }
   .navbar__link:hover {
     color: #f37019; }
 
@@ -104,18 +118,18 @@ and open the template in the editor.
   font-size: 20px;
   padding: 10px 30px 10px 30px; }
 .contacts__tel:before {
-  content: "Tel: ";
+  content: "Telephone: ";
   color: black; }
 .contacts__skype:before {
   content: "Skype: ";
   color: black; }
 .contacts__mail:before {
-  content: "Mail: ";
+  content: "Email: ";
   color: black; }
 
 .aboutme__contacts {
   float: left;
-  width: 30%; }
+  width: 35%; }
   .aboutme__contacts a {
     color: #ffffff;
     display: inline-block;
